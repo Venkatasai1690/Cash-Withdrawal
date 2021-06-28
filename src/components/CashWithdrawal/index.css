@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 500px;
+  background-color: #150b3e;
+  border-radius: 18px;
+  padding: 32px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.title-logo {
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+  font-size: 16px;
+  font-weight: 600px;
+  margin-top: 18px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #d4d2db;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+  font-weight: 600;
+  margin-top: 34px;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #d4d2db;
+  font-weight: 600;
+}
+.rupee {
+  display: flex;
+  align-self: flex-end;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #585076;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #d4d2db;
+  font-weight: 700;
+}
+
+.choose-sum {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #585076;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.Denomination-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
